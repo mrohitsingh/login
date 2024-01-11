@@ -8,8 +8,8 @@ const LoginForm = () => {
       className="flex flex-col justify-center items-center h-screen w-full bg-gray-600 rounded-xl shadow-md bg-cover bg-center bg-no-repeat "
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <div className="w-full max-w-xs sm:max-w-sm mt-auto backdrop-opacity-10 backdrop-invert bg-white/15 rounded-xl shadow-md p-4 bg-cover bg-center bg-no-repeat border-2 border-gray-100 relative">
-        <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-100 rounded-full">
+      <div className="w-full max-w-xs sm:max-w-sm mt-auto backdrop-opacity-10 backdrop-invert bg-white/15 rounded-xl shadow-md px-4 pt-8 pb-4 bg-cover bg-center bg-no-repeat border-2 border-gray-100 relative">
+        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gray-100 rounded-full">
           <CiUser className="text-6xl text-gray-600 p-4 font-semibold" />
         </div>
         <h2 className="text-2xl text-gray-100 font-semibold text-start mb-4">
